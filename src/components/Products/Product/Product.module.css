@@ -1,0 +1,68 @@
+.Product {
+  min-width: 200px;
+  max-width: 200px;
+  overflow: hidden;
+  height: 430px;
+  padding: 10px;
+  box-shadow: 0 0 15px #ddd;
+  margin: 14px;
+  position: relative;
+}
+
+.Product span {
+  color: #800000;
+}
+
+.Product img {
+  width: 100%;
+  height: 220px;
+  display: block;
+  object-fit: cover;
+}
+
+.Product button {
+  width: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  cursor: pointer;
+}
+
+.ProductBox h3 {
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #323232;
+}
+
+.ProductBox h4 {
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: gray;
+}
+
+.ProductBox h5 {
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #323232;
+  font-style: italic;
+}
